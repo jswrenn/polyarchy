@@ -1,7 +1,6 @@
 arch-install-scripts
 b43-fwcutter
 btrfs-progs
-clonezilla
 crda
 darkhttpd
 ddrescue
@@ -28,6 +27,7 @@ lftp
 linux-atm
 mc
 mtools
+nano
 nfs-utils
 nilfs-utils
 nmap
@@ -50,7 +50,6 @@ sudo
 tcpdump
 testdisk
 usb_modeswitch
-vim-minimal
 vpnc
 wget
 wireless_tools
@@ -58,3 +57,13 @@ wpa_actiond
 wvdial
 xl2tpd
 zd1211-firmware
+
+xorg-server
+xorg-xinit
+xterm
+kodi
+
+#virtualbox stuff
+mesa
+virtualbox-guest-utils
+
