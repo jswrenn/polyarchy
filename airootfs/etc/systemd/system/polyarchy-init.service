@@ -1,0 +1,8 @@
+[Unit]
+Description=Polyarch Bootstrapping Service
+
+[Service]
+ExecStart=/etc/systemd/scripts/polyarchy-init
+
+[Install]
+RequiredBy=data.automount

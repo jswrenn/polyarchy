@@ -1,0 +1,6 @@
+#!/bin/bash
+
+if [ ! -d /dev/sda1 ]; then
+	parted /dev/sda mklabel gpt mkpart primary btrfs 0% 100%
+	mkfs.btrfs -L data /dev/sda1
+fi
